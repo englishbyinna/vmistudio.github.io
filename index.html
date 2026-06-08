@@ -1,0 +1,1025 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMI Studio — Speak English with confidence</title>
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon.png" type="image/svg+xml">
+</head>
+<body>
+
+<div>
+    <div class="font-sans text-slate-800 antialiased">
+        <header class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
+            <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+
+                <!-- logo -->
+                <a href="#" class="flex items-center gap-2 font-bold text-lg text-slate-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"
+                         class="lucide lucide-squares-exclude-icon lucide-squares-exclude">
+                        <path d="M16 12v2a2 2 0 0 1-2 2H9a1 1 0 0 0-1 1v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h0"/>
+                        <path d="M4 16a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3a1 1 0 0 1-1 1h-5a2 2 0 0 0-2 2v2"/>
+                    </svg>
+                    VMI Studio
+                </a>
+
+                <!-- top nav links -->
+                <nav class="hidden md:flex items-center gap-6">
+
+                    <a href="#why-us" class="text-sm text-slate-600 hover:text-sky-600 transition-colors font-medium">
+                        Why Us
+                    </a>
+
+                    <a href="#how-it-works"
+                       class="text-sm text-slate-600 hover:text-sky-600 transition-colors font-medium">
+                        How It Works
+                    </a>
+
+                    <a href="#pricing" class="text-sm text-slate-600 hover:text-sky-600 transition-colors font-medium">
+                        Pricing
+                    </a>
+
+                    <a href="#faq"
+                       class="text-sm text-slate-600 hover:text-sky-600 transition-colors font-medium">
+                        FAQ
+                    </a>
+
+                    <a href="#contact" class="text-sm text-slate-600 hover:text-sky-600 transition-colors font-medium">
+                        Contact
+                    </a>
+
+                    <!--                     book class button -->
+                    <a href="mailto:contact@vmistudio.net"
+                       class="ml-2 px-4 py-2 bg-sky-600 text-white text-sm font-semibold rounded-lg hover:bg-sky-700 transition-colors">
+                        Book Class
+                    </a>
+
+                    <!-- theme toggle -->
+                    <button type="button"
+                            class="theme-toggle p-2 text-slate-600 hover:text-sky-600 transition-colors"
+                            aria-label="Toggle dark theme">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="theme-icon-moon w-5 h-5">
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="theme-icon-sun w-5 h-5">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M12 2v2"></path>
+                            <path d="M12 20v2"></path>
+                            <path d="m4.93 4.93 1.41 1.41"></path>
+                            <path d="m17.66 17.66 1.41 1.41"></path>
+                            <path d="M2 12h2"></path>
+                            <path d="M20 12h2"></path>
+                            <path d="m6.34 17.66-1.41 1.41"></path>
+                            <path d="m19.07 4.93-1.41 1.41"></path>
+                        </svg>
+                    </button>
+                </nav>
+
+                <!-- top nav mobile -->
+                <div class="md:hidden flex items-center gap-1">
+                    <button type="button"
+                            class="theme-toggle p-2 text-slate-600 hover:text-sky-600 transition-colors"
+                            aria-label="Toggle dark theme">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="theme-icon-moon w-5 h-5">
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                             stroke-linejoin="round" class="theme-icon-sun w-5 h-5">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M12 2v2"></path>
+                            <path d="M12 20v2"></path>
+                            <path d="m4.93 4.93 1.41 1.41"></path>
+                            <path d="m17.66 17.66 1.41 1.41"></path>
+                            <path d="M2 12h2"></path>
+                            <path d="M20 12h2"></path>
+                            <path d="m6.34 17.66-1.41 1.41"></path>
+                            <path d="m19.07 4.93-1.41 1.41"></path>
+                        </svg>
+                    </button>
+                    <button id="menu-btn" class="p-2 text-slate-600" aria-label="Toggle menu" aria-expanded="false">
+                        <div class="w-5 h-0.5 bg-current mb-1"></div>
+                        <div class="w-5 h-0.5 bg-current mb-1"></div>
+                        <div class="w-5 h-0.5 bg-current"></div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- mobile menu -->
+            <nav id="mobile-menu" class="hidden md:hidden border-t border-slate-100 bg-white px-6 py-4">
+                <div class="flex flex-col gap-4">
+                    <a href="#why-us"
+                       class="text-sm text-slate-600 hover:text-sky-600 transition-colors font-medium">
+                        Why Us
+                    </a>
+                    <a href="#how-it-works"
+                       class="text-sm text-slate-600 hover:text-sky-600 transition-colors font-medium">
+                        How It Works
+                    </a>
+                    <a href="#pricing"
+                       class="text-sm text-slate-600 hover:text-sky-600 transition-colors font-medium">
+                        Pricing
+                    </a>
+                    <a href="#faq"
+                       class="text-sm text-slate-600 hover:text-sky-600 transition-colors font-medium">
+                        FAQ
+                    </a>
+                    <a href="#contact"
+                       class="text-sm text-slate-600 hover:text-sky-600 transition-colors font-medium">
+                        Contact
+                    </a>
+                    <a href="mailto:contact@vmistudio.net"
+                       class="px-4 py-2 bg-sky-600 text-white text-sm font-semibold rounded-lg hover:bg-sky-700 transition-colors text-center">
+                        Book Class
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- INTRO SECTION -->
+        <section class="pt-32 pb-24 bg-gradient-to-br from-sky-50 via-white to-slate-50 relative overflow-hidden">
+
+            <div class="absolute inset-0 pointer-events-none">
+                <div class="absolute top-20 left-1/4 w-72 h-72 bg-sky-100 rounded-full opacity-40 blur-3xl"></div>
+                <div class="absolute bottom-10 right-1/4 w-96 h-96 bg-slate-100 rounded-full opacity-40 blur-3xl"></div>
+            </div>
+
+            <div class="relative max-w-4xl mx-auto px-6 text-center">
+
+                <span class="inline-block px-4 py-1.5 bg-sky-100 text-sky-700 text-sm font-semibold rounded-full mb-6 tracking-wide">First intro class is free</span>
+
+
+                <!-- title -->
+                <h1 class="text-5xl md:text-6xl font-bold text-slate-900 leading-tight mb-6">
+                    Speak English <span class="text-sky-600"> with real confidence</span>
+                </h1>
+
+                <p class="text-xl text-slate-600 leading-relaxed max-w-xl mx-auto mb-10">
+                    Practical 1-on-1 lessons focused on speaking and grammar. Improve your fluency, fix mistakes
+                    naturally, and learn to use English confidently in real-life situations.
+                </p>
+
+                <!-- buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="mailto:contact@vmistudio.net"
+                       class="px-8 py-4 bg-sky-600 text-white font-semibold rounded-xl hover:bg-sky-700 transition-all hover:shadow-lg hover:shadow-sky-200 flex items-center justify-center gap-2">
+                        Book Your First Class
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="lucide lucide-arrow-right w-4 h-4">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+                    <a href="#pricing"
+                       class="px-8 py-4 border-2 border-slate-200 text-slate-700 font-semibold rounded-xl hover:border-slate-300 hover:bg-slate-50 transition-colors flex items-center justify-center">
+                        View Pricing
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY LEARN WITH US SECTION -->
+        <section id="why-us" class="py-24 bg-white">
+            <div class="max-w-6xl mx-auto px-6">
+                <!-- Section Title -->
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-4">
+                        Why learn with us?
+                    </h2>
+                    <p class="text-lg text-slate-500 max-w-2xl mx-auto">
+                        We focus on your personal goals, speaking practice, and grammar needs. Every lesson is adapted
+                        to your level so you can make steady, practical progress.
+                        <!--                        Every learner is different — that's why we focus on your goals, challenges, and progress.-->
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- why-us 1 -->
+                    <div class="p-7 rounded-2xl border border-slate-100 hover:border-sky-100 hover:shadow-md hover:shadow-sky-50 transition-all group">
+                        <div class="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-sky-600 mb-5 group-hover:bg-sky-100 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-users w-7 h-7">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">
+                            One-to-one lessons
+                        </h3>
+                        <p class="text-slate-500 leading-relaxed">
+                            Individual Classes create more opportunities to speak, ask questions, and receive individual
+                            feedback.
+                        </p>
+                    </div>
+
+                    <!-- why-us 2 -->
+                    <div class="p-7 rounded-2xl border border-slate-100 hover:border-sky-100 hover:shadow-md hover:shadow-sky-50 transition-all group">
+                        <div class="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-sky-600 mb-5 group-hover:bg-sky-100 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-award w-7 h-7">
+                                <circle cx="12" cy="8" r="6"></circle>
+                                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">
+                            Experienced Teachers
+                        </h3>
+                        <p class="text-slate-500 leading-relaxed">
+                            With years of teaching experience, we help students
+                            build confidence through structured lessons, real communication, and clear explanations.
+                        </p>
+                    </div>
+
+                    <!-- why-us 3 -->
+                    <div class="p-7 rounded-2xl border border-slate-100 hover:border-sky-100 hover:shadow-md hover:shadow-sky-50 transition-all group">
+                        <div class="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-sky-600 mb-5 group-hover:bg-sky-100 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-globe w-7 h-7">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                                <path d="M2 12h20"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">
+                            English for real life
+                        </h3>
+                        <p class="text-slate-500 leading-relaxed">
+                            Learn the English you need for work, travel, daily conversations, and real-life situations.
+                        </p>
+                    </div>
+
+                    <!-- why-us 4 -->
+                    <div class="p-7 rounded-2xl border border-slate-100 hover:border-sky-100 hover:shadow-md hover:shadow-sky-50 transition-all group">
+                        <div class="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-sky-600 mb-5 group-hover:bg-sky-100 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-clock w-7 h-7">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">
+                            Flexible Schedule
+                        </h3>
+                        <p class="text-slate-500 leading-relaxed">
+                            Choose lesson times that fit your schedule and learn at a pace that works for you.
+                        </p>
+                    </div>
+
+                    <!-- why-us 5 -->
+                    <div class="p-7 rounded-2xl border border-slate-100 hover:border-sky-100 hover:shadow-md hover:shadow-sky-50 transition-all group">
+                        <div class="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-sky-600 mb-5 group-hover:bg-sky-100 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-mic w-7 h-7">
+                                <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                                <line x1="12" x2="12" y1="19" y2="22"></line>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">
+                            Communication First
+                        </h3>
+                        <p class="text-slate-500 leading-relaxed">
+                            Every lesson includes speaking practice to help you communicate more naturally and
+                            confidently.
+                        </p>
+                    </div>
+
+                    <!-- why-us 6 -->
+                    <div class="p-7 rounded-2xl border border-slate-100 hover:border-sky-100 hover:shadow-md hover:shadow-sky-50 transition-all group">
+                        <div class="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-sky-600 mb-5 group-hover:bg-sky-100 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-pen-tool w-7 h-7">
+                                <path d="m12 19 7-7 3 3-7 7-3-3z"></path>
+                                <path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                <path d="m2 2 7.586 7.586"></path>
+                                <circle cx="11" cy="11" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">
+                            Personalized Learning
+                        </h3>
+                        <p class="text-slate-500 leading-relaxed">
+                            Lessons are adapted to your level, goals, interests, and areas that need improvement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION  -->
+        <section id="testimonials" class="py-12 bg-sky-600">
+            <div class="max-w-5xl mx-auto px-6">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- testimonial 1 -->
+                    <div class="text-white">
+                        <div class="flex gap-0.5 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <p class="text-sky-100 text-sm leading-relaxed mb-4">
+                            "I finally feel comfortable speaking English. The lessons are practical, engaging, and easy
+                            to follow."
+                        </p>
+                        <p class="font-semibold text-sm">
+                            Kate B. <span class="font-normal text-sky-200">— Seattle, USA</span>
+                        </p>
+                    </div>
+
+                    <!-- testimonial 2 -->
+                    <div class="text-white">
+                        <div class="flex gap-0.5 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <p class="text-sky-100 text-sm leading-relaxed mb-4">
+                            "Every lesson is well organised and supportive. My grammar and speaking skills have improved
+                            significantly."
+                        </p>
+                        <p class="font-semibold text-sm">
+                            David R. <span class="font-normal text-sky-200">— Tacoma, USA </span>
+                        </p>
+                    </div>
+
+                    <!-- testimonial 3 -->
+                    <div class="text-white">
+                        <div class="flex gap-0.5 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-star w-4 h-4 fill-sky-300 text-sky-300">
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <p class="text-sky-100 text-sm leading-relaxed mb-4">
+                            "I love that every lesson includes real conversation practice. I feel more confident each
+                            week."
+                        </p>
+                        <p class="font-semibold text-sm">
+                            Oksana M. <span class="font-normal text-sky-200">— New York City, USA</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW IT WORKS SECTION   -->
+        <section id="how-it-works" class="py-24 bg-slate-50">
+            <div class="max-w-5xl mx-auto px-6">
+
+                <!-- Section Title -->
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-4">
+                        How to get started</h2>
+                    <p class="text-lg text-slate-500 max-w-xl mx-auto">
+                        Starting your English journey is easy. Your first lesson can be scheduled within days.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-4 gap-8 relative">
+                    <div class="hidden md:block absolute top-10 left-[12%] right-[12%] h-0.5 bg-sky-100"></div>
+
+                    <!-- how-it-works 1 -->
+                    <div class="relative text-center">
+                        <div class="w-20 h-20 bg-white border-2 border-sky-100 rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-sm">
+                            <span class="text-2xl font-bold text-sky-600">01</span>
+                        </div>
+                        <h3 class="font-bold text-slate-800 mb-2">
+                            Contact us
+                        </h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            We schedule a free 30-minute online meeting to assess your level and understand your goals.
+                        </p>
+                    </div>
+
+                    <!-- how-it-works 2 -->
+                    <div class="relative text-center">
+                        <div class="w-20 h-20 bg-white border-2 border-sky-100 rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-sm">
+                            <span class="text-2xl font-bold text-sky-600">02</span>
+                        </div>
+                        <h3 class="font-bold text-slate-800 mb-2">
+                            Meet Your Teacher
+                        </h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            Have a free intro class where we get to know each other and discuss your goals.
+                        </p>
+                    </div>
+
+                    <!-- how-it-works 3 -->
+                    <div class="relative text-center">
+                        <div class="w-20 h-20 bg-white border-2 border-sky-100 rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-sm">
+                            <span class="text-2xl font-bold text-sky-600">03</span>
+                        </div>
+                        <h3 class="font-bold text-slate-800 mb-2">
+                            Begin Your Lessons
+                        </h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            Start learning with practical, engaging lessons designed around your individual goals.
+                        </p>
+                    </div>
+
+                    <!-- how-it-works 4 -->
+                    <div class="relative text-center">
+                        <div class="w-20 h-20 bg-white border-2 border-sky-100 rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-sm">
+                            <span class="text-2xl font-bold text-sky-600">04</span>
+                        </div>
+                        <h3 class="font-bold text-slate-800 mb-2">
+                            Monitor Your Progress
+                        </h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            Regular feedback helps you see your progress and stay focused on your goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING SECTION -->
+        <section id="pricing" class="py-24 bg-white">
+            <div class="max-w-5xl mx-auto px-6">
+
+                <!-- Title of the section-->
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-4">
+                        Simple, transparent pricing</h2>
+                    <p class="text-lg text-slate-500 max-w-xl mx-auto">
+                        Flexible, simple pricing with no long-term commitments.
+                    </p>
+                </div>
+
+                <!-- PACKAGE OF 5 LESSONS -->
+                <div class="grid md:grid-cols-3 gap-8 items-start">
+                    <div class="rounded-2xl border-2 p-8 flex flex-col border-slate-100">
+
+                        <div class="mb-6">
+                            <h3 class="text-xl font-bold text-slate-800 mb-1">Package of 5 Lessons</h3>
+                            <p class="text-slate-500 text-sm mb-4">
+                                Perfect for new students who want to experience our teaching approach.</p>
+                            <div class="flex items-end gap-1">
+                                <span class="text-4xl font-bold text-slate-900">$175</span>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-3 mb-8 flex-1">
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                5 individual 1-on-1 lessons
+                            </li>
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Personalized learning plan
+                            </li>
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Homework review after each lesson
+                            </li>
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Email/Telegram support
+                            </li>
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Flexible scheduling
+                            </li>
+                        </ul>
+                        <a href="mailto:contact@vmistudio.net"
+                           class="w-full py-3 rounded-xl font-semibold text-sm text-center transition-all bg-slate-100 text-slate-700 hover:bg-slate-200">Get
+                            started
+                        </a>
+                    </div>
+
+                    <!-- PACKAGE OF 10 LESSONS -->
+                    <div class="rounded-2xl border-2 p-8 flex flex-col border-sky-500 shadow-xl shadow-sky-100 relative">
+                        <div class="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-sky-600 text-white text-xs font-bold rounded-full tracking-wide uppercase">
+                            Most Popular
+                        </div>
+
+                        <div class="mb-6">
+                            <h3 class="text-xl font-bold text-slate-800 mb-1">Package of 10 Lessons </h3>
+                            <p class="text-slate-500 text-sm mb-4">
+                                Our most popular option for consistent progress and regular learning.
+                            </p>
+                            <div class="flex items-end gap-1">
+                                <span class="text-4xl font-bold text-slate-900">$350</span>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-3 mb-8 flex-1">
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                10 individual 1-on-1 lessons
+                            </li>
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Structured learning plan with clear goals
+                            </li>
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Homework review after each lesson
+                            </li>
+
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Email / Telegram support
+                            </li>
+
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Priority scheduling
+                            </li>
+
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Progress tracking
+                            </li>
+                        </ul>
+
+                        <a href="mailto:contact@vmistudio.net"
+                           class="w-full py-3 rounded-xl font-semibold text-sm text-center transition-all bg-sky-600 text-white hover:bg-sky-700 hover:shadow-lg hover:shadow-sky-200">Get
+                            started
+                        </a>
+                    </div>
+
+
+                    <!-- PACKAGE OF 20 LESSONS -->
+                    <div class="rounded-2xl border-2 p-8 flex flex-col border-slate-100">
+                        <div class="mb-6"><h3 class="text-xl font-bold text-slate-800 mb-1">Package of 20 Lessons </h3>
+                            <p class="text-slate-500 text-sm mb-4">
+                                Best value for long-term students who want consistent improvement and measurable
+                                progress.
+                            </p>
+                            <div class="flex items-end gap-1">
+                                <span class="text-4xl font-bold text-slate-900">$700</span>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 mb-8 flex-1">
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                20 individual 1-on-1 lessons
+                            </li>
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Long-term structured learning roadmap
+                            </li>
+
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Homework review after each lesson
+                            </li>
+
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Email / Telegram support
+                            </li>
+
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Priority scheduling (highest flexibility)
+                            </li>
+                            <li class="flex items-start gap-2.5 text-sm text-slate-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round"
+                                     class="lucide lucide-check-circle w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                                Detailed progress tracking and feedback reports
+                            </li>
+
+
+                        </ul>
+                        <a href="mailto:contact@vmistudio.net"
+                           class="w-full py-3 rounded-xl font-semibold text-sm text-center transition-all bg-slate-100 text-slate-700 hover:bg-slate-200">
+                            Get started
+                        </a>
+                    </div>
+                </div>
+                <p class="text-center text-slate-400 text-sm mt-8">
+                    Lesson packages are purchased via secure Stripe payment links provided after the introductory
+                    session and schedule confirmation.
+                </p>
+                <p class="text-center text-slate-400 text-sm mt-5">
+                    Additional package sizes may be available upon request.
+                </p>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-24 bg-slate-50">
+            <div class="max-w-3xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-4">Frequently asked questions</h2>
+                    <p class="text-lg text-slate-500">
+                        Still have questions?
+                        <a href="mailto:contact@vmistudio.net" class="text-sky-600 hover:underline">Just ask us.</a>
+                    </p>
+                </div>
+                <div class="space-y-3">
+                    <!-- 1 -->
+                    <div class="border border-slate-200 rounded-xl overflow-hidden">
+                        <button class="w-full flex items-center justify-between px-6 py-5 text-left bg-white hover:bg-slate-50 transition-colors">
+                            <span class="font-semibold text-slate-800 pr-4">What levels do you teach?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                 class="lucide lucide-chevron-down w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-300 ">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 max-h-0">
+                            <p class="px-6 py-4 text-slate-600 leading-relaxed">
+                                We teach all levels from complete beginner (A1) through to advanced (C1).
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="border border-slate-200 rounded-xl overflow-hidden">
+                        <button class="w-full flex items-center justify-between px-6 py-5 text-left bg-white hover:bg-slate-50 transition-colors">
+                            <span class="font-semibold text-slate-800 pr-4">How long are the classes?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                 class="lucide lucide-chevron-down w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-300 ">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 max-h-0">
+                            <p class="px-6 py-4 text-slate-600 leading-relaxed">
+                                Each class lasts 60 minutes and is held online via Zoom.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="border border-slate-200 rounded-xl overflow-hidden">
+                        <button class="w-full flex items-center justify-between px-6 py-5 text-left bg-white hover:bg-slate-50 transition-colors">
+                            <span class="font-semibold text-slate-800 pr-4">Will I actually speak during lessons?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                 class="lucide lucide-chevron-down w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-300 ">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 max-h-0">
+                            <p class="px-6 py-4 text-slate-600 leading-relaxed">
+                                Yes. Speaking is at the heart of every lesson, so you'll actively use English, not just
+                                study it.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="border border-slate-200 rounded-xl overflow-hidden">
+                        <button class="w-full flex items-center justify-between px-6 py-5 text-left bg-white hover:bg-slate-50 transition-colors">
+                            <span class="font-semibold text-slate-800 pr-4">Can I reschedule or cancel a lesson?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                 class="lucide lucide-chevron-down w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-300 ">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 max-h-0">
+                            <p class="px-6 py-4 text-slate-600 leading-relaxed">
+                                Yes, of course. You can reschedule or cancel a lesson as long as you give at least 24
+                                hours' notice.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="border border-slate-200 rounded-xl overflow-hidden">
+                        <button class="w-full flex items-center justify-between px-6 py-5 text-left bg-white hover:bg-slate-50 transition-colors">
+                            <span class="font-semibold text-slate-800 pr-4">Do you offer trial lessons?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                 class="lucide lucide-chevron-down w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-300 ">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 max-h-0">
+                            <p class="px-6 py-4 text-slate-600 leading-relaxed">
+                                Yes — we offer a free introductory lesson where you meet the tutor, assess your level,
+                                discuss your goals, and agree on a learning plan and schedule.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="border border-slate-200 rounded-xl overflow-hidden">
+                        <button class="w-full flex items-center justify-between px-6 py-5 text-left bg-white hover:bg-slate-50 transition-colors">
+                            <span class="font-semibold text-slate-800 pr-4">How quickly will I see progress?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                 class="lucide lucide-chevron-down w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-300 ">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 max-h-0">
+                            <p class="px-6 py-4 text-slate-600 leading-relaxed">
+                                Progress depends on your goals and consistency, but many students start feeling more
+                                confident within the first few weeks of regular practice.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--    CONTACT SECTION     -->
+        <section id="contact" class="py-24 bg-white">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Get in touch</h2>
+                <p class="text-lg text-slate-500 mb-12 max-w-xl mx-auto">Have a question or want to enrol? Please
+                    contact us.</p>
+
+                <div class="grid sm:grid-cols-2 gap-8 max-w-2xl mx-auto">
+                    <div class="flex flex-col items-center gap-1">
+                        <div class="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-sky-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="lucide lucide-mail w-6 h-6">
+                                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                            </svg>
+                        </div>
+
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-slate-400 font-semibold mb-1">Email</p>
+                            <a href="mailto:contact@vmistudio.net"
+                               class="text-sky-600 font-semibold hover:text-sky-700 transition-colors">contact@vmistudio.net</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="mt-14">
+                    <a href="mailto:contact@vmistudio.net"
+                       class="inline-flex items-center gap-2 px-8 py-4 bg-sky-600 text-white font-semibold rounded-xl hover:bg-sky-700 transition-all hover:shadow-lg hover:shadow-sky-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="lucide lucide-mail w-5 h-5">
+                            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                        Send us an email
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-slate-900 text-slate-400 py-14">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="grid md:grid-cols-4 gap-10 mb-10">
+                    <div class="md:col-span-2">
+
+                        <div class="font-semibold text-sm mb-3 text-white">
+                            Company Details
+                        </div>
+
+                        <div class="text-sm leading-relaxed max-w-xs text-gray-300 space-y-1">
+                            <p><b>Company:</b> VMI Studio SRL</p>
+                            <p><b>Country:</b> Romania</p>
+                            <p><b>Address:</b> Jud. Ilfov, Oraş Voluntari, Bulevardul Pipera, Nr. 198/4, Bl.
+                                L3B3, Scara 3, Etaj 1, Ap. 20</p>
+                            <p><b>CUI:</b> 54628242</p>
+                            <p><b>ONRC: </b> J2026029740006</p>
+                            <p><b>EUID:</b> ROONRC.J2026029740006</p>
+                        </div>
+
+
+                    </div>
+                    <div>
+                        <h4 class="text-white font-semibold text-sm mb-4">Legal Information</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li>
+                                <a href="/terms.html" target="_blank"
+                                   class="hover:text-sky-400 transition-colors">Terms of Service</a></li>
+                            <li>
+                                <a href="/privacy.html" target="_blank"
+                                   class="hover:text-sky-400 transition-colors">Privacy Policy</a>
+                            </li>
+                            <li><a href="refund.html" target="_blank"
+                                   class="hover:text-sky-400 transition-colors">Refund Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-semibold text-sm mb-4">Contact</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li>
+                                <a href="mailto:contact@vmistudio.net" class="hover:text-sky-400 transition-colors">contact@vmistudio.net</a>
+                            </li>
+
+                            <li>For support and billing inquiries</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border-t border-slate-800 pt-8 flex flex-col sm:flex-row justify-between gap-1 text-sm">
+                    <p>©2026 VMI Studio SRL. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+</body>
+
+</html>
